@@ -1,0 +1,274 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Proyecto Final </title>
+
+<!-- grupo CSS -->
+<link rel="stylesheet" href="css/appproyecto.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!-- grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<!---- imagenes de sustitucion----->
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body>
+
+
+
+<div data-role="page" id="Principal" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1> CBTis No.16 </h1>
+   </div>
+   <p></p>
+   <center>
+   <img src="imagenes/FB_IMG_1464352652278.jpg" width="75%" height="30%">
+   </center>
+   <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false" align="center">
+        <h1> ¿Que es la DGETI? </h1>
+         <div>
+          <p>
+           La Dirección General de Educación Tecnológica Industrial es una dependencia adscrita a la Subsecretaría de Educación Media Superior (SEMS), dependiente de la Secretaría de Educación Pública(SEP) que ofrece el servicio educativo del nivel medio superior tecnológico. El 16 de Abril de 1971 es publicado en el Diario Oficial de la Federación el acuerdo presidencial por el que se modifica la estructura orgánica administrativa de la SEP y se da paso a la creación de la DGETI, en agosto de ese mismo año se publican las funciones que tendrá esta institución y se integran a ella los centros de capacitación para el trabajo industrial, escuelas tecnológicas industriales, los centros de estudios tecnológicos en el Distrito Federal y los centros de estudios tecnológicos foráneos.
+           <br>
+           Actualmente la DGETI es la institución de educación media superior tecnológica más grande del país, con una infraestructura física de 456 planteles educativos a nivel nacional, de los cuales 168 son CETIS y 288 CBTIS; Además proporciona a los organismos descentralizados de los gobiernos de las entidades federativas, que impartan la educación tecnológica industrial competencia de esta unidad administrativa, la asistencia académica, técnica y pedagógica a los 652 CECyTEs.
+          </p>
+          <p></p>
+          <h2>Misión</h2>
+          Formar ciudadanos con las capacidades requeridas para propiciar y participar en una sociedad del conocimiento, tanto en el ámbito laboral como social.
+          <p></p>
+          <h2>Vsión</h2>
+          Ser una institución de educación media superior certificada, orientada al aprendizaje y desarrollo de conocimientos tecnológicos y humanísticos.
+          <p></p>
+          <h2>Objetivo</h2>
+          Formar bachilleres técnicos que desarrollen, fortalezcan y preserven una cultura tecnológica y una infraestructura industrial y de servicios que coadyuven y satisfagan las necesidades económicas y sociales del país.
+          <p></p>
+          <h2>Objetivos Específicos</h2>
+          <ul>
+           <li>Establecer y desarrollar el sistema de planeación y evaluación de la operación, así como desarrollo académico y administrativo de la Dirección General de Educación Tecnológica Industrial (DGETI) con el fin de propiciar su crecimiento y consolidación en la formación de bachilleres técnicos.</li>
+           <li>Desarrollar, implantar y coordinar los criterios y metodologías de gestión académico administrativa en los planteles educativos y subdirecciones de enlace, así como en el órgano central de la DGETI, desde las proyecciones de planeación estratégica, su planeación operativa, presupuestación, desarrollo, evaluación y mejora de los procesos y servicios.</li>
+           <li>Ofrecer a los alumnos el acceso a instalaciones limpias, materiales adecuados, equipo moderno y en buen estado, así como computadoras conectadas a internet en los planteles de la DGETI.</li>
+           <li>Capacitar en los temas del “Servicio Profesional Docente (SPD)” a los docentes de la Dirección General de Educación Tecnológica Industrial para lograr un mejor funcionamiento del proceso educativo de la DGETI y sus planteles incorporados.</li>
+           <li>Elaboración y aplicación de mejoras a los planes y programas de estudio y propiciar que sus contenidos sean congruentes con el avance tecnológico, que respondan con la dinámica del sector productivo.</li>
+           <li>Que los docentes apliquen enfoques pedagógicos modernos en sus métodos de enseñanza y recursos didácticos.</li>
+           <li>Desarrollar proyectos de investigación educativa que posibiliten el conocimiento de las causas que provocan el fracaso y la deserción escolar,  permitan el diseño y puesta en marcha de propuestas de solución.</li>
+           <li>Desarrollar prototipos para su aplicación como recurso didáctico para la mejora de los métodos de enseñanza.</li>
+           <li>Dirigir, controlar y supervisar el desarrollo de los programas de apoyo a la operación estatal del sistema de educación tecnológica industrial y de servicios así como a los planteles incorporados a este sistema educativo, que permitan la supervisión de los mismos y la emisión de REVOE de acuerdo a los lineamientos establecidos.</li>
+           <li> Realizar actividades que permitan el desarrollo de competencias en la formación cultural, deportiva, cívica y social de alumnos de la DGETI.</li>
+           <li>Mejorar la eficiencia terminal mediante programas de tutorías y de acompañamiento académico.</li>
+          </ul>
+          Ebtre otros
+         </div>
+         
+         <p>&nbsp;</p>
+<p><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','imagenes/cbtis_16.jpg',1)"><img src="imagenes/FB_IMG_1464352613952.jpg" width="250" height="250" id="Image2" /></a></p>
+<p>&nbsp;</p>
+     </div>
+     
+  </div>
+  <!------- visor----->
+  <!---<iframe src="visor/index_wow.html" style="width:350px;height:184px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>  ---->    
+  <p></p>  
+<div>
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-b">
+     <li class="ui-fist-child ui-last-child">
+       <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> Programa de Estudios </h2>
+       </a>
+      </li>
+     <li class="ui-fist-child ui-last-child">
+        <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Ubicación</h2>
+       </a>
+    </li>
+    <li class="ui-fist-child ui-last-child">
+        <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2> Galeria </h2>
+       </a>
+    </li>
+    <li class="ui-fist-child ui-last-child">
+        <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Elaborado Por... </h2>
+       </a>
+    </li>
+   </ul>
+</div>
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+       <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <div>
+       <h4> CBtis 16 </h4>
+       <h4>Xel-ha Lozada López</h4>
+    </div>
+</div>
+
+</div>
+<!------- Manifestaciones de la Humanidad -------------->
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Programa de estudios</h1>
+   </div>
+   <div data-role="content" align="center">
+      <div>
+       <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-b">
+        
+         <li class="ui-fist-child ui-last-child">
+          <a target="_self" href="indexelectricidad.html" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2> Electricidad </h2>
+          </a>
+         </li> 
+         <li class="ui-fist-child ui-last-child">
+          <a target="_self" href="indexlogistica.html" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2> Logística </h2>
+          </a>
+         </li> 
+        <li class="ui-fist-child ui-last-child">
+        <a target="_self" href="indexmecanica.html" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2> Mecánica </h2>
+        </a>
+        </li>
+        <li class="ui-fist-child ui-last-child">
+       <a target="_self" href="indexprogramacion.html" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> Técnico en Programacion </h2>
+       </a>
+      </li>
+       </ul> 
+      </div>
+    </div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+       <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <div>
+       <h4> CBtis 16 </h4>
+       <h4>Xel-ha Lozada López</h4>
+    </div>
+</div>
+
+
+ </div>
+</div>
+
+<!-------- ¿Cómo es que podemos salvar a la Tierra? -------------->
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Ubicacion</h1>
+   </div>
+   <div data-role="content">
+      <div>
+      Dirección: Fray Bartolomé de las Casas 2001, Ricardo Flores Magón, 74240 Atlixco, Pue.
+      <p></p>
+      Teléfono:01 244 446 2961
+      <p></p>
+      <img src="imagenes/ubicacion.jpg" width="90%" height="50%">
+      </div>
+    </div>
+    
+    
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+       <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <div>
+       <h4> CBtis 16 </h4>
+       <h4>Xel-ha Lozada López</h4>
+    </div>
+</div>
+
+ </div>
+</div>
+
+<!------- Reflexion----->
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Galeria</h1>
+   </div>
+   <div data-role="content" align="center">
+      <div>
+        <center><h2>CBTis 16</h2></center>
+        <p></p>
+        <iframe src="visor_cbtis/wowslider.html" style="width:640px;height:250px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+      </div>
+    </div>
+    
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+       <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <div>
+       <h4> CBtis 16 </h4>
+       <h4>Xel-ha Lozada López</h4>
+    </div>
+</div>
+
+ </div>
+</div>
+
+<!----- Elaborado Por---->
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Elaborado Por...</h1>
+   </div>
+   <div data-role="content">
+      <div>
+      Alumno:
+      <br>
+       Xel-ha Lozada López
+       <p></p>
+       Grupo:
+       <br>
+       4° E
+       <p></p>
+       Submodulo:
+       <br>
+       Desarrolla Aplicaciones Moviles (DAM)
+       <p></p>
+       Especialidad:
+       <br>
+       Programación
+      </div>
+    </div>
+    
+    
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+       <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <div>
+       <h4> CBtis 16 </h4>
+       <h4>Xel-ha Lozada López</h4>
+    </div>
+</div>
+
+ </div>
+</div>    
+</body>
+</html>
